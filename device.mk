@@ -294,7 +294,9 @@ PRODUCT_PACKAGES += \
    SystemUIOverlay \
    TelephonyOverlay \
    TetheringConfigOverlay \
-   WifiOverlay
+   WifiOverlay \
+   NotchBarKiller \
+   NoCutoutOverlay \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
