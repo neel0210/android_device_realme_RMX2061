@@ -41,8 +41,8 @@ vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,co
 # CNE
 persist.vendor.cne.feature=1
 
-# Disable Skia tracing by default
-debug.hwui.skia_atrace_enabled=false
+# HWUI
+debug.hwui.renderer=opengl
 
 # Dalvik
 dalvik.vm.dexopt.secondary=true
