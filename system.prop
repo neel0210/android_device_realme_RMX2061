@@ -72,6 +72,9 @@ vendor.display.svi.config_path=/vendor/etc/svi_config_19720.xml
 # DPM
 persist.dpm.feature=1
 
+# Feature flags
+persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Initialize QCA1530 detection
 sys.qca1530=detect
 
