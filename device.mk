@@ -580,9 +580,6 @@ PRODUCT_PACKAGES += \
     android.hardwareundtrigger@2.3.vendor \
     android.hardware.tetheroffload.config@1.0.vendor \
     android.hardware.tetheroffload.control@1.0.vendor \
-    android.hardware.thermal@1.0.vendor \
-    android.hardware.thermal@1.1.vendor \
-    android.hardware.thermal@2.0.vendor \
     android.hardware.tv.cec@1.0.vendor \
     android.hardware.tv.cec@2.0.vendor \
     android.hardware.tv.input@1.0.vendor \
