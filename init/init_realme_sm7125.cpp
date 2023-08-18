@@ -74,4 +74,8 @@ void check_nfc_support()
 void vendor_load_properties()
 {
     check_nfc_support();
+
+    // Set RisingOS Stuff
+    property_override("ro.rising.maintainer", "Neel0210");
+    property_override("ro.rising.chipset", "Snapdragon 720G");
 }
