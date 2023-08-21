@@ -12,11 +12,18 @@ $(call inherit-product, vendor/realme/hotword/google.mk)
 
 # ROM Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GMS := true
-TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_DISABLE_EPPE := true
+
+# Rising stuff
+TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_ENABLE_BLUR := false
+TARGET_HAS_UDFPS := false
+TARGET_USE_PIXEL_FINGERPRINT := true
+RISING_PACKAGE_TYPE := "AOSP"
+
+# GMS
+WITH_GMS := true
 
 # Inherit some common stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
