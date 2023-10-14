@@ -630,4 +630,9 @@ PRODUCT_PACKAGES += \
     libadf.vendor \
     libstdc++.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
+    libprotobuf-cpp-full \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1 \
     libtinyxml.vendor
