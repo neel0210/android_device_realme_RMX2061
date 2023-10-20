@@ -36,5 +36,8 @@ type proc_decimal, fs_type, proc_type;
 # KProfiles
 type sysfs_kprofiles, sysfs_type, fs_type;
 
+# Wakelock stats
+type proc_wakelocks, fs_type;
+
 # Power
 type proc_sched_energy_aware, proc_type, fs_type;
