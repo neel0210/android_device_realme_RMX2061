@@ -26,10 +26,10 @@ RISING_PACKAGE_TYPE := "AOSP"
 WITH_GMS := true
 
 # Inherit some common stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := lineage_RMX2061
+PRODUCT_NAME := cherish_RMX2061
 PRODUCT_DEVICE := RMX2061
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX2061
